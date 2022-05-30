@@ -18,7 +18,7 @@ Run `pip install tf-focal-frequency-loss` for installation. Then, the following 
 
 ```python
 import tensorflow as tf
-from tf-focal_frequency_loss import FocalFrequencyLoss as FFL
+from tf_focal_frequency_loss import FocalFrequencyLoss as FFL
 ffl = FFL(loss_weight=1.0, alpha=1.0)  # initialize tf.keras.layers.Layer class
 
 fake = tf.random.normal((4, 3, 64, 64))  # replace it with the predicted tensor of shape (N, C, H, W)
