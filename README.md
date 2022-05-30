@@ -1,5 +1,7 @@
 # Focal Frequency Loss - Tensorflow Implementation
 
+[![PyPI version](https://badge.fury.io/py/tf-focal-frequency-loss.svg)](https://badge.fury.io/py/tf-focal-frequency-loss)
+
 ![teaser](https://raw.githubusercontent.com/EndlessSora/focal-frequency-loss/master/resources/teaser.jpg)
 
 This repository provides the Tensorflow implementation for the following paper:
