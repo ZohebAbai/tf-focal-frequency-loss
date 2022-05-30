@@ -27,6 +27,8 @@ real = tf.random.normal((4, 3, 64, 64))  # replace it with the target tensor of 
 loss = ffl(fake, real)  # calculate focal frequency loss
 ```
 
+## Notebook
+[**Pix2Pix**](https://github.com/ZohebAbai/Deep-Learning-Projects/blob/master/08_TF_Pix2Pix_on_Edges2Handbags.ipynb)
 
 ## License
 
