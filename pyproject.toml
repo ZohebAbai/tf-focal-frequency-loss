@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "tf_focal_frequency_loss"
+name = "tf-focal-frequency-loss"
 authors = [{name = "Zoheb Abai", email = "aglauocnv@relay.firefox.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -13,6 +13,9 @@ dynamic = ["version", "description"]
 dependencies = [
     "tensorflow >=2.5.0",
 ]
+
+[tool.flit.module]
+name = "tf_focal_frequency_loss"
 
 [project.urls]
 Home = "https://github.com/ZohebAbai/tf-focal-frequency-loss"

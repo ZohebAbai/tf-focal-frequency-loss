@@ -14,7 +14,7 @@ in ICCV 2021.
 
 ## Quick Start
 
-Run `pip install tf_focal_frequency_loss` for installation. Then, the following code is all you need.
+Run `pip install tf-focal-frequency-loss` for installation. Then, the following code is all you need.
 
 ```python
 import tensorflow as tf
