@@ -1,0 +1,18 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "tf_focal_frequency_loss"
+authors = [{name = "Zoheb Abai", email = "aglauocnv@relay.firefox.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires-python = ">=3.6"
+dynamic = ["version", "description"]
+dependencies = [
+    "tensorflow >=2.5.0",
+]
+
+[project.urls]
+Home = "https://github.com/ZohebAbai/tf-focal-frequency-loss"
