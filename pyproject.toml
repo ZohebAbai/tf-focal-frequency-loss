@@ -8,10 +8,10 @@ authors = [{name = "Zoheb Abai", email = "aglauocnv@relay.firefox.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
-requires-python = ">=3.6"
+requires-python = ">=3.8"
 dynamic = ["version", "description"]
 dependencies = [
-    "tensorflow >=2.5.0",
+    "tensorflow >=2.10.0",
 ]
 
 [tool.flit.module]

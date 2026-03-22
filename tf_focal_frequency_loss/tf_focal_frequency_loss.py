@@ -102,8 +102,8 @@ class FocalFrequencyLoss(tf.keras.layers.Layer):
 
         # whether to use minibatch average spectrum
         if self.ave_spectrum:
-            pred_freq = tf.math.reduce_mean(pred_freq, axis=0, keepdim=True)
-            target_freq = tf.math.reduce_mean(target_freq, axis=0, keepdim=True)
+            pred_freq = tf.math.reduce_mean(pred_freq, axis=0, keepdims=True)
+            target_freq = tf.math.reduce_mean(target_freq, axis=0, keepdims=True)
 
         # calculate focal frequency loss
         return self.loss_formulation(pred_freq, target_freq, matrix) * self.loss_weight
