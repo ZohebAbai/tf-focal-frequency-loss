@@ -1,5 +1,7 @@
 # Focal Frequency Loss - Tensorflow Implementation
 
+> **Maintenance notice:** This package is no longer actively developed. The final release is **v0.2.0** (March 2026), which fixes a bug in the `ave_spectrum` path (`keepdim` → `keepdims`) and updates minimum requirements to Python ≥ 3.8 and TensorFlow ≥ 2.10.0. This repository will be **archived on 2026-09-30**. For active development and the official implementation, use the [PyTorch version](https://github.com/EndlessSora/focal-frequency-loss).
+
 [![PyPI version](https://badge.fury.io/py/tf-focal-frequency-loss.svg)](https://badge.fury.io/py/tf-focal-frequency-loss)
 
 ![teaser](https://raw.githubusercontent.com/EndlessSora/focal-frequency-loss/master/resources/teaser.jpg)
